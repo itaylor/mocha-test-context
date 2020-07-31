@@ -1,0 +1,18 @@
+{
+  "name": "mocha-test-context",
+  "version": "1.0.0",
+  "description": "Captures the current running mocha test name and file path. Useful for certain types of logging/reporting about mocha tests. ",
+  "main": "index.js",
+  "author": "ian.b.taylor@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha -r ./index.js test.js"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.0"
+  },
+  "peerDependencies": { 
+    "mocha": ">=8"
+  }
+}
